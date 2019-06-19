@@ -13,6 +13,11 @@ h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
 body {font-family: "Open Sans"}
 </style>
 <body class="w3-light-grey">
+  
+  
+  <%= link_to "Home", root_path %>
+# => <a href="/">Home</a>
+<a href = "/welcome/p1">Try </a>
 
 <!-- Navigation bar with social media icons -->
 <div class="w3-bar w3-black w3-hide-small">
@@ -52,21 +57,21 @@ and is wrapped around the whole page content, except for the footer in this exam
       <!-- Blog entry -->
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-center">
-          <h3>LOUIS</h3>
+          <h3>LOUIE</h3>
           <h5>Last Updated <span class="w3-opacity">June 10, 2019</span></h5>
         </div>
 
         <div class="w3-justify">
             <%= image_tag("louis.JPG", :alt => "rss feed", :width =>"40%",  :class => "w3-padding-16") %>
           
-          <p><strong>I'm Louis!</strong> I really love cuddling, especially sitting in your lap.
-          I sleep most of the time and tend to cuddle with my brothers and sisters when I do so.
+          <p><strong>I'm Louie!</strong> I am named after Louis Vuitton because of my wonderful color. I love to snuggle with the other pups and play with them when I am awake.
           
           
           </p>
-          <p>Price: $4998</p>
+          <p>Price: $3998</p>
           <p>Sex: boy</p>
           <p>Registered? yes</p>
+          <a href = "/welcome/p1">More Pictures of Louie </a>
            
           
           <p class="w3-clear"></p>
@@ -85,15 +90,14 @@ and is wrapped around the whole page content, except for the footer in this exam
             <%= image_tag("mj.JPG", :alt => "rss feed", :width =>"40%",  :class => "w3-padding-16") %>
           
           <p><strong>I'm MJ, or Millie Junior!</strong> 
-          I was named after my mom, Millie.
-          I'm kind of shy but I do love to be held.  
-          
+          My name is MJ because I am named after my mom, Millie. I act just like her in the sense of playfulness and personality. I was also the first one to start walking, so I beat my siblings on that! 
+           
           
           </p>
-          <p>Price: $3500</p>
+          <p>Price: $3998</p>
           <p>Sex: girl</p>
           <p>Registered? yes</p>
-           
+           <a href = "/welcome/p2">More Pictures of MJ </a>
           
           <p class="w3-clear"></p>
 
@@ -211,7 +215,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
 
         <div class="w3-justify">
-            <%= image_tag("pumpkin.JPG", :alt => "rss feed", :width =>"40%",  :class => "w3-padding-16") %>
+             <%= image_tag("pumpkin2.JPG", :alt => "rss feed", :width =>"40%",  :class => "w3-padding-16") %>
           
           <p><strong>I'm Pumpkin!</strong> 
           I love my mom and my siblings.    
@@ -279,6 +283,18 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>More Information</h4>
         </div>
         <ul class="w3-ul w3-hoverable w3-white">
+          
+          <li class="w3-padding-16"> <a href = "/welcome/p1"></a>
+            <img src="/app/assets/images/p1.jpg"  href = "/welcome/p1" alt="Image" class="w3-left w3-margin-right" style="width:50px" >
+           
+            <span class="w3-large">The Dog Parents</span>
+            
+            <br>
+            <span> <a href = "/welcome/p1">More Info Here </a> </span>
+          </li>
+          
+
+          
           <li class="w3-padding-16">
             <img src="/app/assets/images/p1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">Louie</span>
@@ -350,6 +366,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <p>We are an honest Christian family and this is our first time selling puppies.  </p>
   <p>We want our puppies to have the best home, and we would really like to get to know you.</p>
   <p>Please contact us with any questions.  </p>
+  <p>For the safety of the dogs, we do not ship them.  </p>
   <p>Love, Rusty and Peyton </p>
 </footer>
 
