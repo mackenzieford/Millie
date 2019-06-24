@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'welcome/p7'
   get 'welcome/p8'
   get 'welcome/parents'
+  get 'welcome/faq'
   
   root 'welcome#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

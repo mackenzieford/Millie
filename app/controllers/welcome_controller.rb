@@ -29,4 +29,8 @@ class WelcomeController < ApplicationController
   def parents
   end
   
+  def faq
+  end
+  
+  
 end
